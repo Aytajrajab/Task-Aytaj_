@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url("./img/outerspace-6.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 800px;
+    margin: 0 auto;
+}
+ul li{
+    list-style: none;
+}
+ul{
+    display: flex;
+    gap: 50px;
+}
+.selection{
+    font-size: 28px;
+    margin-top: 10px;
+    border: none;
+    width: 150px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    /* background-color:  #ffffff; */
+    box-shadow: 2px 5px 10px #d1cfd1;
+    color: #ffffff;
+    background: linear-gradient(to right,  #edc3f5 40% ,#6e4efd );
+}
+
+.select{
+    background: #ffffff;
+    outline: none;
+    box-shadow: inset 3px 3px 3px #9e7fe7;
+    border:  1px solid rgb(245, 243, 243);
+    color: #969595;
+}
+
+.hide{
+    display:none;
+}
+.show{
+    display:inline-block;
+    font-size: 24px;
+    margin-top: 50px;
+    border: none;
+    line-height: 30px;
+    color:#ffffff;
+    box-shadow:  2px 2px 10px #d6d3d3;
+    border-radius: 20px;
+    padding: 50px;
+}
